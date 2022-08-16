@@ -8,12 +8,16 @@
             "keys": "ctrl+v"
         },
         {
+            "command": "paste",
+            "keys": "alt+v"
+        },
+        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
-            "keys": "ctrl+c"
+            "keys": "alt+c"
         },
         {
             "command": "unbound",
@@ -30,6 +34,18 @@
         {
             "command": "unbound",
             "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+insert"
         },
         {
             "command": "closePane"
@@ -63,6 +79,13 @@
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "alt+w"
         }
     ],
     "copyFormatting": "none",
