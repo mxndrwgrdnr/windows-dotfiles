@@ -1,0 +1,35 @@
+{
+    "remote.SSH.remotePlatform": {
+        "gcp-vm-ub22-1.streetlightdata.net": "linux",
+        "gcp-vm-ub22-2.streetlightdata.net": "linux",
+        "stl2": "linux",
+        "stl1": "linux"
+    },
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 2,
+    "editor.tabCompletion": "onlySnippets",
+    "python.languageServer": "Pylance",
+    "python.autoComplete.extraPaths": [
+    ],
+    "remote.SSH.defaultForwardedPorts": [
+    
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.associations": {
+        "*.py": "python"
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.autopep8Args": [
+        "--select=W293"
+    ],
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "python.analysis.extraPaths": [],
+    "[python]": {
+        "editor.rulers": [
+            79,
+            120
+        ]
+    
+}

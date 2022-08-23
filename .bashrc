@@ -121,7 +121,7 @@ fi
 # backup windows dotfiles
 dots="/home/max/windows-dotfiles";
 appDataLocal="/mnt/c/Users/gardnem/AppData/Local";
-appDataRoaming="mnt/c/Users/gardnem/AppData/Roaming";
+appDataRoaming="/mnt/c/Users/gardnem/AppData/Roaming";
 cd ${dots} && git pull --quiet;
 cd ${dots} && sudo cp ${appDataLocal}/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/*.json Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/ && git add  Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/*.json 2>/dev/null;
 cd ${dots} && sudo cp ${appDataLocal}/Microsoft/PowerToys/Keyboard\ Manager/*.json PowerToys/Keyboard\ Manager/ && git add PowerToys/Keyboard\ Manager/*.json 2>/dev/null;
