@@ -25,6 +25,11 @@
         "--select=W293"
     ],
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.profiles.linux": {
+        "bash (login)": {
+          "path": "bash",
+          "args": ["-l"]
+        },
     "python.analysis.extraPaths": [],
     "[python]": {
         "editor.rulers": [
