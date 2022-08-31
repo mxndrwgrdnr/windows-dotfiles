@@ -128,5 +128,5 @@ cd ${dots} && sudo cp ${appDataLocal}/Microsoft/PowerToys/Keyboard\ Manager/*.js
 cd ${dots} && sudo cp ${appDataRoaming}/Code/User/*.json Code/User/ && git add Code/User/*.json 2>/dev/null;
 cd ${dots} && sudo cp ${HOME}/.bashrc . && git add .bashrc 2>/dev/null;
 cd ${dots} && echo $(date '+%Y-%m-%d %H:%M:%S') > last_updated.log && git add last_updated.log 2>/dev/null;
-cd ${dots} && git commit -m "latest from bashrc" --quiet && git push --quiet;
+cd ${dots} && git commit -m "latest from bashrc" --quiet && git push --quiet && cd ${HOME};
 
