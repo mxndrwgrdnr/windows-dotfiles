@@ -69,92 +69,97 @@
         "command": "-editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
     },
-    {
-        "key": "alt+c",
-        "command": "-toggleSearchEditorCaseSensitive",
-        "when": "inSearchEditor && searchInputBoxFocus"
-    },
-    {
-        "key": "alt+c",
-        "command": "-workbench.action.terminal.toggleFindCaseSensitive",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "alt+c",
-        "command": "-toggleFindCaseSensitive",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+c",
-        "command": "-toggleSearchCaseSensitive",
-        "when": "searchViewletFocus"
-    },
-    {
-        "key": "ctrl+c",
-        "command": "editor.action.clipboardCopyAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+c",
-        "command": "-editor.action.clipboardCopyAction"
-    },
-    {
-        "key": "alt+v",
-        "command": "editor.action.clipboardPasteAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "-editor.action.clipboardPasteAction"
-    },
-    {
-        "key": "alt+x",
-        "command": "editor.action.clipboardCutAction"
-    },
-    {
-        "key": "shift+delete",
-        "command": "-editor.action.clipboardCutAction"
-    },
-    {
-        "key": "ctrl+insert",
-        "command": "-editor.action.clipboardCopyAction"
-    },
-    {
-        "key": "alt+c",
-        "command": "editor.action.clipboardCopyAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "editor.action.clipboardPasteAction"
-    },
-    {
-        "key": "alt+s",
-        "command": "workbench.action.files.save"
-    },
-    {
-        "key": "alt+w",
-        "command": "-toggleFindWholeWord",
-        "when": "editorFocus"
-    },
-    {
-        "key": "alt+w",
-        "command": "workbench.action.closeActiveEditor",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "workbench.action.terminal.paste",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "-workbench.action.terminal.paste",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "alt+v",
-        "command": "workbench.action.terminal.paste",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    }
+    // {
+    //     "key": "alt+c",
+    //     "command": "-toggleSearchEditorCaseSensitive",
+    //     "when": "inSearchEditor && searchInputBoxFocus"
+    // },
+    // {
+    //     "key": "alt+c",
+    //     "command": "-workbench.action.terminal.toggleFindCaseSensitive",
+    //     "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    // },
+    // {
+    //     "key": "alt+c",
+    //     "command": "-toggleFindCaseSensitive",
+    //     "when": "editorFocus"
+    // },
+    // {
+    //     "key": "alt+c",
+    //     "command": "-toggleSearchCaseSensitive",
+    //     "when": "searchViewletFocus"
+    // },
+    // {
+    //     "key": "ctrl+c",
+    //     "command": "editor.action.clipboardCopyAction",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+c",
+    //     "command": "-editor.action.clipboardCopyAction"
+    // },
+    // {
+    //     "key": "alt+v",
+    //     "command": "editor.action.clipboardPasteAction",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+v",
+    //     "command": "-editor.action.clipboardPasteAction"
+    // },
+    // {
+    //     "key": "alt+x",
+    //     "command": "editor.action.clipboardCutAction"
+    // },
+    // {
+    //     "key": "shift+delete",
+    //     "command": "-editor.action.clipboardCutAction"
+    // },
+    // {
+    //     "key": "ctrl+insert",
+    //     "command": "-editor.action.clipboardCopyAction"
+    // },
+    // {
+    //     "key": "alt+c",
+    //     "command": "editor.action.clipboardCopyAction",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+v",
+    //     "command": "editor.action.clipboardPasteAction"
+    // },
+    // {
+    //     "key": "alt+s",
+    //     "command": "workbench.action.files.save"
+    // },
+    // {
+    //     "key": "alt+w",
+    //     "command": "-toggleFindWholeWord",
+    //     "when": "editorFocus"
+    // },
+    // {
+    //     "key": "alt+w",
+    //     "command": "workbench.action.closeActiveEditor",
+    //     "when": "editorFocus"
+    // },
+    // {
+    //     "key": "ctrl+v",
+    //     "command": "workbench.action.terminal.paste",
+    //     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    // },
+    // {
+    //     "key": "ctrl+v",
+    //     "command": "-workbench.action.terminal.paste",
+    //     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    // },
+    // {
+    //     "key": "alt+v",
+    //     "command": "workbench.action.terminal.paste",
+    //     "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    // },
+    // {
+    //     "key": "ctrl+left",
+    //     "command": "cursorHome",
+    //     "when": "textInputFocus"
+    // }
 ]
