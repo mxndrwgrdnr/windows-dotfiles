@@ -3,17 +3,16 @@
         "gcp-vm-ub22-1.streetlightdata.net": "linux",
         "gcp-vm-ub22-2.streetlightdata.net": "linux",
         "stl2": "linux",
-        "stl1": "linux"
+        "stl1": "linux",
+        "dell4": "linux",
+        "stl3": "linux"
     },
     "workbench.startupEditor": "none",
-    "window.zoomLevel": 3,
+    "window.zoomLevel": 2,
     "editor.tabCompletion": "onlySnippets",
     "python.languageServer": "Pylance",
-    "python.autoComplete.extraPaths": [
-    ],
-    "remote.SSH.defaultForwardedPorts": [
-    
-    ],
+    "python.autoComplete.extraPaths": [],
+    "remote.SSH.defaultForwardedPorts": [],
     "security.workspace.trust.untrustedFiles": "open",
     "files.associations": {
         "*.py": "python"
@@ -22,13 +21,16 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.formatting.autopep8Args": [
-        "--select=W293"
+        "--select=W293",
+        "--select=W291"
     ],
     "terminal.integrated.enableMultiLinePasteWarning": false,
     "terminal.integrated.profiles.linux": {
         "bash (login)": {
-          "path": "bash",
-          "args": ["-l"]
+            "path": "bash",
+            "args": [
+                "-l"
+            ]
         }
     },
     "python.analysis.extraPaths": [],
@@ -36,8 +38,14 @@
         "editor.rulers": [
             79,
             120
-        ]
-    
-},
-"workbench.activityBar.visible": false
+        ],
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "workbench.activityBar.visible": false,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ]
 }

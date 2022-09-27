@@ -4,6 +4,14 @@
     "actions": 
     [
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "alt+c"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -12,12 +20,11 @@
             "keys": "alt+v"
         },
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "alt+c"
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "closePane"
         },
         {
             "command": "unbound",
@@ -46,13 +53,6 @@
         {
             "command": "unbound",
             "keys": "shift+insert"
-        },
-        {
-            "command": "closePane"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -95,7 +95,10 @@
     "experimental.detectURLs": true,
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "bellStyle": "none"
+        },
         "list": 
         [
             {
@@ -137,6 +140,12 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{34a13805-9b56-5e89-9234-f02de44bd971}",
+                "hidden": false,
+                "name": "PowerShell 7 (x86)",
+                "source": "Windows.Terminal.PowershellCore"
             }
         ]
     },
