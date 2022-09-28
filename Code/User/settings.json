@@ -47,5 +47,10 @@
     "python.formatting.blackArgs": [
         "--line-length",
         "79"
-    ]
+    ],
+    "editor.minimap.renderCharacters": false,
+    "workbench.colorCustomizations": {
+        "minimap.background": "#ffffff00",
+        "minimap.foregroundOpacity": "#ff0000af",
+    }
 }
