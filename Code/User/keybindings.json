@@ -86,6 +86,14 @@
         "key": "alt+w",
         "command": "workbench.action.closeActiveEditor"
     },
+    {
+        "key": "alt+c",
+        "command": "editor.action.clipboardCopyAction"
+    },
+    {
+        "key": "alt+v",
+        "command": "editor.action.clipboardPasteAction"
+    },
     // {
     //     "key": "alt+c",
     //     "command": "-toggleSearchEditorCaseSensitive",
