@@ -94,6 +94,10 @@
         "key": "alt+v",
         "command": "editor.action.clipboardPasteAction"
     },
+    {
+        "key": "alt+x",
+        "command": "editor.action.clipboardCutAction"
+    },
     // {
     //     "key": "alt+c",
     //     "command": "-toggleSearchEditorCaseSensitive",
