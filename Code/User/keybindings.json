@@ -98,6 +98,16 @@
         "key": "alt+x",
         "command": "editor.action.clipboardCutAction"
     },
+    {
+        "key": "ctrl+left",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "cursorWordRight",
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
     // {
     //     "key": "alt+c",
     //     "command": "-toggleSearchEditorCaseSensitive",
