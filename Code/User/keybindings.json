@@ -108,6 +108,14 @@
         "command": "cursorWordRight",
         "when": "textInputFocus && !accessibilityModeEnabled"
     },
+    {
+        "key": "ctrl+alt+up",
+        "command": "workbench.action.terminal.resizePaneUp"
+    },
+    {
+        "key": "ctrl+alt+down",
+        "command": "workbench.action.terminal.resizePaneDown"
+    },
     // {
     //     "key": "alt+c",
     //     "command": "-toggleSearchEditorCaseSensitive",
