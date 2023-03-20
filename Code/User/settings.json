@@ -39,7 +39,8 @@
             79,
             120
         ],
-        "editor.defaultFormatter": "ms-python.python"
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
     },
     "workbench.activityBar.visible": false,
     "python.formatting.provider": "black",
@@ -52,5 +53,6 @@
     "workbench.colorCustomizations": {
         "minimap.background": "#ffffff00",
         "minimap.foregroundOpacity": "#ff0000af",
-    }
+    },
+    "remote.SSH.configFile": "c:\\Users\\gardnem\\.ssh\\config"
 }
