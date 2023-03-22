@@ -54,5 +54,6 @@
         "minimap.background": "#ffffff00",
         "minimap.foregroundOpacity": "#ff0000af",
     },
-    "remote.SSH.configFile": "c:\\Users\\gardnem\\.ssh\\config"
+    "remote.SSH.configFile": "c:\\Users\\gardnem\\.ssh\\config",
+    "remote.SSH.showLoginTerminal": true
 }
