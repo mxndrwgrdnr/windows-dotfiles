@@ -21,7 +21,8 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--ignore=W293"
+        "--ignore=W293",
+        "--max-line-length=120"
     ],
     "python.formatting.autopep8Args": [
         "--select=W293",
@@ -50,7 +51,7 @@
     "editor.formatOnSave": true,
     "python.formatting.blackArgs": [
         "--line-length",
-        "79"
+        "119"
     ],
     "editor.minimap.renderCharacters": false,
     "workbench.colorCustomizations": {
