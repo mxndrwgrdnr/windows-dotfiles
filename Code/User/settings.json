@@ -59,5 +59,6 @@
         "minimap.foregroundOpacity": "#ff0000af",
     },
     "remote.SSH.configFile": "c:\\Users\\gardnem\\.ssh\\config",
-    "remote.SSH.showLoginTerminal": false
+    "remote.SSH.showLoginTerminal": false,
+    "git.openRepositoryInParentFolders": "never"
 }
