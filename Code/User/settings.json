@@ -36,7 +36,6 @@
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnType": true
     },
-    "workbench.activityBar.visible": false,
     "editor.formatOnSave": true,
     "editor.minimap.renderCharacters": false,
     "workbench.colorCustomizations": {
@@ -54,5 +53,6 @@
     "flake8.args": [
         "--select=W293",
         "--select=W291"
-    ]
+    ],
+    "workbench.activityBar.location": "hidden"
 }
