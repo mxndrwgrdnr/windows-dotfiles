@@ -6,7 +6,8 @@
         "stl1": "linux",
         "dell4": "linux",
         "stl3": "linux",
-        "bigboy": "linux"
+        "bigboy": "linux",
+        "cem1": "linux"
     },
     "workbench.startupEditor": "none",
     "window.zoomLevel": 2,
