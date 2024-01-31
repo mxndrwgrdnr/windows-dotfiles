@@ -131,3 +131,19 @@ cd ${dots} && echo $(date '+%Y-%m-%d %H:%M:%S') > last_updated.log && git add la
 cd ${dots} && git commit -m "latest from bashrc" --quiet && git push --quiet && cd ${HOME};
 cd ${HOME}
 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/max/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/max/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/max/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/max/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
