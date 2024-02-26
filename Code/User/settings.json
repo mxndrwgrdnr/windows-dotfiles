@@ -47,7 +47,6 @@
     "remote.SSH.showLoginTerminal": false,
     "git.openRepositoryInParentFolders": "never",
     "flake8.importStrategy": "fromEnvironment",
-    "black-formatter.importStrategy": "fromEnvironment",
     "black-formatter.args": [
         "--line-length=119"
     ],
